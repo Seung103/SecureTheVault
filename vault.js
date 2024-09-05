@@ -1,14 +1,19 @@
+//alert string was simple to use, this seems to work on the html
 alert("You have received this message because you have been chosen to open an important vault. Here is the secret combination:");
 
 //added text to be clear on the vault combination
 // 10 - 40 - 39
+//used subtraction,multiplcation, and division with in each variables
 const x = 15 - 5;
 const y = 2 * 20;
 const z = 78 / 2;
 
-const combination = x
-
-alert(combination)
+const combination = x + " - " + y + " - " + z
+//created each alert to come up each combination; also combined them all at the end just for fun
+alert(x);
+alert(y);
+alert(z);
+alert(combination);
 
 
 
